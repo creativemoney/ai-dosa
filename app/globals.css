@@ -1,0 +1,9 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0F0E0C; color: #E8E4DD; font-family: 'Noto Serif KR', Georgia, serif; min-height: 100vh; }
+input:focus, select:focus { outline: none; border-color: #C6A96C !important; }
+input::placeholder { color: #5A5650; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-thumb { background: rgba(198,169,108,.2); border-radius: 2px; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pulse { 0%, 100% { opacity: .4; } 50% { opacity: 1; } }
